@@ -38,7 +38,7 @@ export default function Meta() {
             <meta name="og:title" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta name="og:description"
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
-            <meta name="og:image" content="images/logos/logo_1200.png" />
+            <meta name="og:image" content="https://iili.io/JdWnTzX.md.png" />
             <meta name="og:url" content="http://invalidkaro.github.io/" />
             <meta name="og:site_name" content="Invalid Karo Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
