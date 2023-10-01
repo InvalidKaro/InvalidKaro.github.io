@@ -22,7 +22,7 @@ export default function Meta() {
             /* Search Engine */
             <meta name="image" content="images/logos/fevicon.png" />
             /* Schema.org for Google */
-            <meta itemProp="name" content="Invalid Karo Portfolio - Fullstack Developer" />
+            <meta itemProp="name" content="Invalid Karo Portfolio - Fullstack Developer - Discover my personal portfolio website designed with the Ubuntu 20.04 theme, created using Next.js and Tailwind CSS. Explore my projects, contributions, and more." />
             <meta itemProp="description"
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
             <meta itemProp="image" content="images/logos/fevicon.png" />
