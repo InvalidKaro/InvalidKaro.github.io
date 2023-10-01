@@ -26,8 +26,6 @@ export default function Meta() {
             <meta itemProp="description"
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
             <meta itemProp="image" content="images/logos/fevicon.png" />
-            <meta content="https://ibb.co/sJZqKFS" property="og:image" />
-
             /* Twitter */
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="Invalid Karo Portfolio - Fullstack Developer" />
@@ -35,14 +33,12 @@ export default function Meta() {
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
             <meta name="twitter:site" content="invalidkaro" />
             <meta name="twitter:creator" content="invalidkaro" />
-            <meta name="twitter:image:src" content="https://ibb.co/sJZqKFS" />
-            <meta name="twitter:card" content="summary_large_image" >
-
+            <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
             <meta name="og:title" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta name="og:description"
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
-            <meta name="og:image" content="https://ibb.co/sJZqKFS" />
+            <meta name="og:image" content="images/logos/logo_1200.png" />
             <meta name="og:url" content="http://invalidkaro.github.io/" />
             <meta name="og:site_name" content="Invalid Karo Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
