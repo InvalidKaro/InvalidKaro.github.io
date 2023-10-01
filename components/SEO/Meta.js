@@ -4,7 +4,6 @@ import Head from 'next/head';
 export default function Meta() {
     return (
         <Head>
-           /* Primary Meta Tags */
             <title>Invalid Karo Portfolio - Fullstack Developer</title>
             <meta charSet="utf-8" />
             <meta name="title" content="Invalid Karo Portfolio - Fullstack Developer" />
@@ -19,26 +18,27 @@ export default function Meta() {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="theme-color" content="#E95420" />
 
-            /* Search Engine */
             <meta name="image" content="images/logos/fevicon.png" />
-            /* Schema.org for Google */
+                    
             <meta itemProp="name" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta itemProp="description"
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
             <meta itemProp="image" content="images/logos/fevicon.png" />
-            /* Twitter */
+            <meta content="https://ibb.co/sJZqKFS" property="og:image" />
+
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta name="twitter:description"
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
             <meta name="twitter:site" content="invalidkaro" />
             <meta name="twitter:creator" content="invalidkaro" />
-            <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
-            /* Open Graph general (Facebook, Pinterest & Google+) */
+            <meta name="twitter:image:src" content="https://ibb.co/sJZqKFS" />
+            <meta name="twitter:card" content="summary_large_image" >
+
             <meta name="og:title" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta name="og:description"
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
-            <meta name="og:image" content="images/logos/logo_1200.png" />
+            <meta name="og:image" content="https://ibb.co/sJZqKFS" />
             <meta name="og:url" content="http://invalidkaro.github.io/" />
             <meta name="og:site_name" content="Invalid Karo Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
