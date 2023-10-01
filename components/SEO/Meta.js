@@ -27,7 +27,7 @@ export default function Meta() {
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
-            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta name="twitter:description"
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
