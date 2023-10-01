@@ -27,13 +27,13 @@ export default function Meta() {
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
-            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta name="twitter:description"
                 content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
             <meta name="twitter:site" content="invalidkaro" />
             <meta name="twitter:creator" content="invalidkaro" />
-            <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
+            <meta name="twitter:image" content="https://iili.io/JdWnTzX.md.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
             <meta name="og:title" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta name="og:description"
