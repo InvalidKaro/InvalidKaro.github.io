@@ -37,14 +37,15 @@ export default function Meta() {
             /* Open Graph general (Facebook, Pinterest & Google+) */
             <meta name="og:title" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta name="og:description"
-                content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
-            <meta name="og:image" content="https://iili.io/JdWnTzX.md.png" />
+                content="Invalid Karo's (invalidkaro) Personal Portfolio Website - Discover my personal portfolio website designed with the Ubuntu 20.04 theme, created using Next.js and Tailwind CSS. Explore my projects, contributions, and more." />
+            <meta name="og:image" content="https://www.iili.io/JdWnTzX.md.png" />
             <meta name="og:url" content="http://invalidkaro.github.io/" />
             <meta name="og:site_name" content="Invalid Karo Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 
             <link rel="icon" href="images/logos/fevicon.svg" />
+            <link rel="image_src" href="https://www.iili.io/JdWnTzX.md.png" />
             <link rel="apple-touch-icon" href="images/logos/logo.png" />
             <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" as="style" />
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"></link>
