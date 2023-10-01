@@ -9,7 +9,7 @@ export default function Meta() {
             <meta charSet="utf-8" />
             <meta name="title" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta name="description"
-                content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
+                content="Discover my personal portfolio website designed with the Ubuntu 20.04 theme, created using Next.js and Tailwind CSS. Explore my projects, contributions, and more." />
             <meta name="author" content="Invalid Karo (invalidkaro)" />
             <meta name="keywords"
                 content="invalidkaro, invalidkaro's portfolio, invalidkaro linux, ubuntu portfolio, Invalid Karo protfolio,Invalid Karo computer, Invalid Karo, invalid ubuntu, Invalid Karo ubuntu portfolio" />
