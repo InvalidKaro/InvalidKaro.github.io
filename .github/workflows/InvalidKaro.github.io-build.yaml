@@ -1,0 +1,60 @@
+# To better understand this file read this:
+# https://docs.ionos.space/docs/github-actions-customization/
+
+name: "Deploy Now: Execute Build"
+
+on:
+  workflow_call:
+    inputs:
+      site-url:
+        required: true
+        type: string
+      branch-id:
+        required: true
+        type: string
+
+env:
+  DEPLOYMENT_FOLDER: out
+
+jobs:
+# Please do not rename this job
+  build-project:
+    name: build InvalidKaro.github.io
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: v16.x
+
+      - name: Build Node assets
+        env:
+          CI: true
+          NEXT_PUBLIC_SERVICE_ID: service_alkeuo9
+          NEXT_PUBLIC_TEMPLATE_ID: template_av45hk9
+          NEXT_PUBLIC_TRACKING_ID: G-DRY8W7XBCB
+          NEXT_PUBLIC_USER_ID: 0UZtC6XwVvk8OxA5O
+          SITE_URL: ${{ inputs.site-url }}
+        run: |
+          npm install --global yarn
+          yarn install --frozen-lockfile
+          yarn build
+          yarn export
+
+# Please do not touch the following action
+      - name: Store deployment content
+        uses: ionos-deploy-now/artifact-action@v1
+        with:
+          api-key: ${{ secrets.IONOS_API_KEY }}
+          service-host: api-eu.ionos.space
+          project-id: 82ae7b0f-af7c-4156-801b-4176c9f4e4c1
+          branch-id: ${{ inputs.branch-id }}
+          version: ${{ github.sha }}
+          folder: ${{ env.DEPLOYMENT_FOLDER }}
+          config-file: .deploy-now/InvalidKaro.github.io/config.yaml
+          action: upload
