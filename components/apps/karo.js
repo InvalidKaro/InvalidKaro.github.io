@@ -146,7 +146,6 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        E.T.A. Hoffmann Gymnasium
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2015 - 2024</div>
                     <div className=" text-sm md:text-base">Computer Science</div>
@@ -158,7 +157,7 @@ function Education() {
                         Class 11<sup>th</sup> 
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2022-2023</div>
-                    <div className=" text-sm md:text-base">Maths, Biology, Chemistry</div>
+                    <div className=" text-sm md:text-base">Maths</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div>
                 </li>
             </ul>
