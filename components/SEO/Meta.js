@@ -24,13 +24,13 @@ export default function Meta() {
             /* Schema.org for Google */
             <meta itemProp="name" content="Invalid Karo Portfolio - Fullstack Developer - Discover my personal portfolio website designed with the Ubuntu 20.04 theme, created using Next.js and Tailwind CSS. Explore my projects, contributions, and more." />
             <meta itemProp="description"
-                content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
+                content="Invalid Karo's (invalidkaro) Personal Portfolio Website - - Discover my personal portfolio website designed with the Ubuntu 20.04 theme, created using Next.js and Tailwind CSS. Explore my projects, contributions, and more." />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="Invalid Karo Portfolio - Fullstack Developer" />
             <meta name="twitter:description"
-                content="Invalid Karo's (invalidkaro) Personal Portfolio Website" />
+                content="Invalid Karo's (invalidkaro) Personal Portfolio Website - - Discover my personal portfolio website designed with the Ubuntu 20.04 theme, created using Next.js and Tailwind CSS. Explore my projects, contributions, and more." />
             <meta name="twitter:site" content="invalidkaro" />
             <meta name="twitter:creator" content="invalidkaro" />
             <meta name="twitter:image" content="https://iili.io/JdWnTzX.md.png" />
