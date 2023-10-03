@@ -83,7 +83,7 @@ const apps = [
     },
     {
         id: "gedit",
-        title: "Contact Me",
+        title: "Contact/Impressum",
         icon: './themes/Yaru/apps/gedit.png',
         disabled: false,
         favourite: false,
