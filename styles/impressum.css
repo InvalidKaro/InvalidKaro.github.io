@@ -3,6 +3,36 @@ body {
     font-display: swap;
 }
 
+
+/* Header styles */
+.impressum h1 {
+    font-size: 24px;
+    color: #333;
+    /* Add any additional header styles you need */
+}
+
+/* Paragraph styles */
+.impressum p {
+    font-size: 16px;
+    color: #666;
+    /* Add any additional paragraph styles you need */
+}
+
+/* Strong text styles */
+.impressum strong {
+    font-weight: bold;
+    /* Add any additional styles for strong text */
+}
+
+/* Link styles */
+.impressum a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+.impressum a:hover {
+    text-decoration: underline;
+}
 /* Top NavBar styling */
 .top-arrow-up {
     border-left: 5px solid transparent;
