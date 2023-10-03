@@ -71,7 +71,7 @@ export class Gedit extends Component {
                 <div className="flex items-center justify-between w-full bg-ub-gedit-light bg-opacity-60 border-b border-t border-blue-400 text-sm">
                     <span className="font-bold ml-2">Send a Message to Me</span>
                     <div className="flex">
-                        <a href="out/impressum.html" className="text-ubt-gedit-orange hover:underline ml-2">Impressum</a>
+                        <a href="./impressum.html" className="text-ubt-gedit-orange hover:underline ml-2">Impressum</a>
 
                         <div onClick={this.sendMessage} className="border border-black bg-black bg-opacity-50 px-3 py-0.5 my-1 mx-1 rounded hover:bg-opacity-80">Send</div>
                     </div>
